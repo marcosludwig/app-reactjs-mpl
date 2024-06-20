@@ -1,0 +1,30 @@
+.about {
+  color: var(--verde-belo);
+}
+
+.about h1 {
+  text-align: center;
+}
+
+.about h2 {
+  text-align: center;
+}
+
+.about p {
+  text-align: justify;
+  max-width: 30%;
+  margin: auto;
+}
+
+.about ul {
+  align-items: center;
+  text-align: center;
+}
+
+.about li {
+  text-align: justify;
+  max-width: 30%;
+  margin: auto;
+  color: var(--verde-belo);
+}
+

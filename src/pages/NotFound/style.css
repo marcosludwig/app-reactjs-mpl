@@ -1,0 +1,7 @@
+.notfound {
+  color: var(--verde-belo);
+}
+
+.notfound h1 {
+  text-align: center;
+}

@@ -1,0 +1,36 @@
+nav {
+  background-color: var(--verde-belo);
+  color: white;
+}
+
+nav a {
+  padding: 0 0 0 0;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  transform: scale(1);
+  transition: transform 500ms;
+}
+
+nav a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  transform: scale(1.25);
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+nav li {
+  list-style: none;
+  padding: 2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+}

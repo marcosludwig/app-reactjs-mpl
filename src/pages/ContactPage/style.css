@@ -1,0 +1,39 @@
+.contact {
+  color: var(--verde-belo);
+}
+
+.contact h1 {
+  text-align: center;
+}
+
+.contact ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.contact li {
+  list-style: none;
+  padding: 2rem;
+  color: var(--verde-belo);
+  display: flex;
+  align-items: center;
+}
+
+.contact a {
+  padding: 0 0 0 0;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--verde-belo);
+  transform: scale(1);
+  transition: transform 500ms;
+}
+
+.contact a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--verde-belo);
+  transform: scale(1.25);
+}

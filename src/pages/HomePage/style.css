@@ -1,0 +1,14 @@
+.homepage {
+  color: var(--verde-belo);
+}
+
+.homepage h1 {
+  text-align: center;
+}
+
+.homepage p {
+  text-align: justify;
+  max-width: 50%;
+  margin: auto;
+  padding: 10px;
+}
